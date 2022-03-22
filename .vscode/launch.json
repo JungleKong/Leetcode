@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "C/C++",
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${workspaceFolder}/bin/1.getting_started/1.getting_started__3.4.shaders_exercise1",
+            "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "compile",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
