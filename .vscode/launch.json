@@ -6,7 +6,7 @@
             "name": "C/C++",
             "type": "cppdbg",
             "request": "launch",
-            // "program": "${workspaceFolder}/bin/1.getting_started/1.getting_started__3.4.shaders_exercise1",
+            // "program": "${workspaceFolder}/bin/test",
             "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
@@ -22,6 +22,7 @@
                     "ignoreFailures": true
                 }
             ], 
+            "miDebuggerPath": "/usr/bin/gdb",
             "sourceFileMap":{
                 "/build/glibc-YYA7BZ": "/usr/src/glibc"
             },
